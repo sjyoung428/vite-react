@@ -1,11 +1,9 @@
-import Hello from "./Hello";
+import Example from "./Example";
 
 function App() {
   return (
     <>
-      {[1, 2, 3].map((data) => (
-        <Hello key={data} />
-      ))}
+      <Example />
     </>
   );
 }
